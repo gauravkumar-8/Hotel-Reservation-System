@@ -49,21 +49,3 @@ CREATE TABLE reservations (
     contact_number VARCHAR(15),
     reservation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
----
-## ⚙️ How to Run the Project
-
-### 📋 Prerequisites
-
-- Java (JDK 8 or above)
-- MySQL installed and running
-- MySQL Connector JAR file
-
----
-
-### 🧱 Compile Command
-```bash
-javac -cp .;mysql-connector-j-9.3.0.jar HotelReservationSystem.java
-### 🧱 Run Command
-```bash
-java -cp .;mysql-connector-j-9.3.0.jar HotelReservationSystem
